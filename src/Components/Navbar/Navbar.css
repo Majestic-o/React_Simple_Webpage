@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: white;
+    margin-bottom: -30px;
+}
+
+.nav-logo{
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+    gap: 90px;
+    align-items: center;
+}
+
+.nav-contact{
+    background: #fff;
+    color: #262626;
+    padding: 10px 38px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.nav-contact:hover{
+    background: orangered;
+    padding: 12px 40px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+.list-pop{
+    transition: 0.5s;
+}
+.list-pop:hover{
+    letter-spacing: 2px;
+    font-size: 22px;
+}
